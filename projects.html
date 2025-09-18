@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Muthiah Shanmugam</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    .project-card {
+      background: #ecf0f1;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .project-card img {
+      max-width: 100%;
+      border-radius: 5px;
+      margin-top: 0.5rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      margin-top: 0.5rem;
+      background: #0077b5; /* LinkedIn blue */
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #005582;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      background: #2c3e50;
+      color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Muthiah Shanmugam</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html">Projects</a>
+      <a href="blog.html">Blog</a>
+      <a href="talks.html">Talks</a>
+      <a href="resources.html">Resources</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Projects & Code</h1>
+    <p>
+      Here are some of my key projects, simulation models, and toolkits developed as part of my PhD research.  
+      Each project highlights objectives, methodology, and links to the code or visual results.
+    </p>
+
+    <!-- Project 1: Quarter Car Model -->
+    <section class="project-card">
+      <h2>Quarter Car Suspension Model</h2>
+      <p>
+        A modular Python/Simulink model to simulate vertical dynamics of a quarter car,  
+        evaluating ride comfort and suspension performance under various road profiles.
+      </p>
+      <!-- Placeholder for image -->
+      <!-- <img src="quarter_car_plot.png" alt="Quarter Car Model Plot"> -->
+      <p>
+        <a href="https://github.com/thnktech/quarter-car-model" target="_blank" class="btn">View Code on GitHub</a>
+      </p>
+    </section>
+
+    <!-- Project 2: Bicycle Model -->
+    <section class="project-card">
+      <h2>Bicycle Model (Pitch + Vertical Dynamics)</h2>
+      <p>
+        Simulation of a 2-DOF bicycle model including pitch and vertical motion,  
+        used to study ride comfort, safety metrics, and chassis dynamics for mid-size vehicles.
+      </p>
+      <!-- Placeholder for image -->
+      <!-- <img src="bicycle_model_plot.png" alt="Bicycle Model Plot"> -->
+      <p>
+        <a href="https://github.com/thnktech/bicycle-model" target="_blank" class="btn">View Code on GitHub</a>
+      </p>
+    </section>
+
+    <!-- Project 3: Vehicle Control Toolkit -->
+    <section class="project-card">
+      <h2>Vehicle Control Toolkit (Python)</h2>
+      <p>
+        A comprehensive Python toolkit for implementing, simulating, and comparing control strategies:  
+        PID, LQR, MPC, Skyhook, Sliding Mode, Fuzzy Logic, and hybrid controllers.
+      </p>
+      <!-- Placeholder for image -->
+      <!-- <img src="control_toolkit_plot.png" alt="Vehicle Control Toolkit Screenshot"> -->
+      <p>
+        <a href="https://github.com/thnktech/vehicle-control-toolkit" target="_blank" class="btn">View Toolkit on GitHub</a>
+      </p>
+    </section>
+
+    <!-- Optional CTA -->
+    <p style="text-align:center;">
+      <a href="research.html" class="btn">Back to Research Overview</a>
+    </p>
+
+  </main>
+
+  <footer>
+    &copy; 2025 Muthiah Shanmugam | Built with ❤️ on GitHub Pages
+  </footer>
+
+</body>
+</html>

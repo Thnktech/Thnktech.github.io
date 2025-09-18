@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Me | Muthiah Shanmugam</title>
+  <title>Contact | Muthiah Shanmugam</title>
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -36,7 +36,7 @@
     }
 
     main {
-      max-width: 900px;
+      max-width: 700px;
       margin: 2rem auto;
       padding: 2rem;
       background: #fff;
@@ -48,36 +48,56 @@
       color: #2c3e50;
     }
 
-    .skills {
-      margin-top: 1.5rem;
+    p {
+      margin-bottom: 1rem;
     }
 
-    .skills ul {
-      list-style: none;
-      padding: 0;
+    form {
+      display: flex;
+      flex-direction: column;
     }
 
-    .skills li {
-      background: #ecf0f1;
-      margin: 0.5rem 0;
+    label {
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+
+    input, textarea {
       padding: 0.6rem;
       border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
     }
 
-    .btn {
-      display: inline-block;
-      padding: 0.75rem 1.5rem;
+    textarea {
+      resize: vertical;
+    }
+
+    button {
       margin-top: 1.5rem;
-      background: #0077b5; /* LinkedIn blue */
+      padding: 0.8rem 1.5rem;
+      background: #0077b5;
       color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
       font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
       transition: background 0.3s ease;
     }
 
-    .btn:hover {
+    button:hover {
       background: #005582;
+    }
+
+    a.contact-link {
+      color: #0077b5;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a.contact-link:hover {
+      text-decoration: underline;
     }
 
     footer {
@@ -107,36 +127,29 @@
   </header>
 
   <main>
-    <h1>About Me</h1>
+    <h1>Contact Me</h1>
     <p>
-      I am a Mechatronics Engineer and PhD Researcher specializing in <strong>Vehicle Dynamics</strong> and <strong>Control Systems</strong>.  
-      My focus is on optimizing vehicle performance through system simulation and ride & handling analysis using Multibody Dynamics.  
+      I’m happy to connect regarding research, collaborations, or professional inquiries. You can reach me via email or LinkedIn,  
+      or send a direct message through the form below.
     </p>
 
-    <p>
-      With a Master's degree in Vehicle Dynamics and a strong foundation in both academic and industry practices, I have honed my skills in  
-      <strong>MATLAB/Simulink, MSC ADAMS, SIMPACK, and Python</strong> to deliver innovative solutions that enhance vehicle control and system performance.  
-    </p>
+    <h2>Email & LinkedIn</h2>
+    <p>Email: <a href="mailto:thinkingtechie2020@gmail.com" class="contact-link">thinkingtechie2020@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/muthiah-shanmugam" target="_blank" class="contact-link">Muthiah Shanmugam</a></p>
 
-    <p>
-      I am passionate about research and thrive in collaborative environments, consistently working towards delivering measurable results  
-      through analytical skills and practical strategies. My long-term goal is to contribute to the evolution of control systems for safer  
-      and more efficient vehicles.
-    </p>
+    <h2>Contact Form</h2>
+    <form action="https://formspree.io/f/mnqvylwj" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
 
-    <h2>Skills</h2>
-    <div class="skills">
-      <ul>
-        <li>Vehicle Dynamics & Ride Comfort Analysis</li>
-        <li>MATLAB / Simulink</li>
-        <li>Python for Simulation & Control</li>
-        <li>MSC ADAMS & SIMPACK (Multibody Dynamics)</li>
-        <li>Model Predictive Control (MPC), LQR, PID</li>
-        <li>Data Analysis & Visualization</li>
-      </ul>
-    </div>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
 
-    <a href="CV.pdf" class="btn" target="_blank">Download My CV</a>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
   </main>
 
   <footer>

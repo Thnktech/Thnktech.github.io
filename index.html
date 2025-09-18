@@ -16,68 +16,78 @@
     header {
       background: #2c3e50;
       color: #fff;
-      padding: 1rem 0;
+      padding: 2rem 1rem;
       text-align: center;
     }
 
-    nav {
-      margin-top: 1rem;
-    }
-
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    .hero {
-      text-align: center;
-      padding: 2rem;
-      background: #ecf0f1;
-    }
-
-    .hero img {
+    header img {
       width: 150px;
       height: 150px;
       border-radius: 50%;
-      margin-top: 1rem;
-      object-fit: cover;
-      border: 4px solid #fff;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      border: 3px solid #fff;
+      margin-bottom: 1rem;
     }
 
-    .hero h1 {
-      margin: 1rem 0 0.5rem;
+    header h1 {
+      margin: 0.5rem 0;
     }
 
-    .hero h2 {
-      font-weight: normal;
-      color: #555;
-    }
-
-    .cta {
-      margin-top: 1.5rem;
+    header p {
+      max-width: 600px;
+      margin: 0 auto 1rem auto;
+      line-height: 1.5;
     }
 
     .btn {
       display: inline-block;
-      padding: 0.75rem 1.5rem;
+      padding: 0.7rem 1.5rem;
       margin: 0.5rem;
-      background: #0077b5; /* LinkedIn blue */
+      background: #0077b5;
       color: #fff;
+      font-weight: bold;
       text-decoration: none;
       border-radius: 5px;
-      font-weight: bold;
       transition: background 0.3s ease;
     }
 
     .btn:hover {
       background: #005582;
+    }
+
+    nav {
+      text-align: center;
+      margin: 1rem 0;
+    }
+
+    nav a {
+      color: #2c3e50;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #0077b5;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    main h2 {
+      color: #2c3e50;
+      margin-bottom: 1rem;
+    }
+
+    main p {
+      line-height: 1.6;
     }
 
     footer {
@@ -92,29 +102,40 @@
 <body>
 
   <header>
+    <img src="profile.jpg" alt="Muthiah Shanmugam">
     <h1>Muthiah Shanmugam</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="research.html">Research</a>
-      <a href="publications.html">Publications</a>
-      <a href="projects.html">Projects</a>
-      <a href="blog.html">Blog</a>
-      <a href="talks.html">Talks</a>
-      <a href="resources.html">Resources</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <p>
+      As an expert in Vehicle Dynamics and Control Systems for the Automotive industry, my focus as a Mechatronics Engineer is optimizing vehicle performance through system simulation and ride & handling analysis using Multibody Dynamics.  
+      With a Master's degree in Vehicle Dynamics, I have honed MATLAB/Simulink, MSC ADAMS, SIMPACK, and Python skills to deliver innovative solutions that enhance vehicle control and improve system performance.
+    </p>
+    <a href="https://www.linkedin.com/in/muthiah-shanmugam" target="_blank" class="btn">Connect on LinkedIn</a>
   </header>
 
-  <section class="hero">
-    <img src="profile.jpg" alt="Profile Picture">
-    <h1>Vehicle Dynamics & Control Systems Engineer</h1>
-    <h2>PhD Researcher | Simulation & Control | Automotive Innovation</h2>
-    <div class="cta">
-      <a href="research.html" class="btn">View My Research</a>
-      <a href="https://www.linkedin.com/in/muthiah-shanmugam" target="_blank" class="btn">Connect on LinkedIn</a>
-    </div>
-  </section>
+  <nav>
+    <a href="about.html">About</a>
+    <a href="research.html">Research</a>
+    <a href="publications.html">Publications</a>
+    <a href="projects.html">Projects</a>
+    <a href="blog.html">Blog</a>
+    <a href="talks.html">Talks</a>
+    <a href="resources.html">Resources</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <h2>Welcome to My Professional Portfolio</h2>
+    <p>
+      Explore my research, projects, publications, and insights in vehicle dynamics and control systems.  
+      This website is designed to showcase my PhD journey, tools, simulations, and contributions to the field.
+    </p>
+
+    <p>
+      <a href="research.html" class="btn">Research</a>
+      <a href="projects.html" class="btn">Projects</a>
+      <a href="publications.html" class="btn">Publications</a>
+      <a href="contact.html" class="btn">Contact Me</a>
+    </p>
+  </main>
 
   <footer>
     &copy; 2025 Muthiah Shanmugam | Built with ❤️ on GitHub Pages
