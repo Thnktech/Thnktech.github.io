@@ -1,146 +1,151 @@
-<!DOCTYPE html>
-<html lang="en">
+@ -3,13 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muthiah Shanmugam | Senior Computations Engineer | Vehicle Dynamics Simulation | Ride and Handling | Control Systems | Python Programming</title>
   <title>Muthiah Shanmugam | Vehicle Dynamics & Control Systems</title>
-  <link rel="stylesheet" href="assets/css/style.css">
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
       margin: 0;
       padding: 0;
+      line-height: 1.6;
       background: #f4f4f9;
       color: #333;
     }
-
+@ -17,39 +16,58 @@
     header {
       background: #2c3e50;
       color: #fff;
       padding: 2rem 1rem;
+      padding: 1rem 0;
       text-align: center;
     }
 
-    header img {
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    nav {
+      margin-top: 1rem;
+    }
+
+    header h2 {
+      margin: 0.5rem 0 0;
+      font-weight: normal;
+      font-size: 1.2rem;
+      color: #bdc3c7;
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 2rem;
+      background: #ecf0f1;
+    }
+
+    .hero img {
       width: 150px;
       height: 150px;
       border-radius: 50%;
-      border: 3px solid #fff;
-      margin-bottom: 1rem;
+      margin-top: 1rem;
+      object-fit: cover;
+      border: 4px solid #fff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
 
-    header h1 {
-      margin: 0.5rem 0;
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    .hero h1 {
+      margin: 1rem 0 0.5rem;
     }
 
-    header p {
-      max-width: 600px;
-      margin: 0 auto 1rem auto;
-      line-height: 1.5;
+    main p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    .hero h2 {
+      font-weight: normal;
+      color: #555;
+    }
+
+    .cta {
+      margin-top: 1.5rem;
     }
 
     .btn {
       display: inline-block;
-      padding: 0.7rem 1.5rem;
+      padding: 0.75rem 1.5rem;
       margin: 0.5rem;
-      background: #0077b5;
+      background: #0077b5; /* LinkedIn blue */
       color: #fff;
-      font-weight: bold;
       text-decoration: none;
-      border-radius: 5px;
-      transition: background 0.3s ease;
-    }
-
-    .btn:hover {
-      background: #005582;
-    }
-
-    nav {
-      text-align: center;
-      margin: 1rem 0;
-    }
-
-    nav a {
-      color: #2c3e50;
-      text-decoration: none;
-      margin: 0 12px;
-      font-weight: bold;
-      transition: color 0.3s;
-    }
-
-    nav a:hover {
-      color: #0077b5;
-    }
-
-    main {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 2rem;
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      text-align: center;
-    }
-
-    main h2 {
-      color: #2c3e50;
-      margin-bottom: 1rem;
-    }
-
-    main p {
-      line-height: 1.6;
-    }
-
-    footer {
+@ -66,7 +84,8 @@
       text-align: center;
       padding: 1rem;
       margin-top: 2rem;
+      color: #777;
       background: #2c3e50;
       color: #ddd;
     }
   </style>
 </head>
-<body>
+@ -74,27 +93,31 @@
 
   <header>
-    <img src="assets/images/profile.jpg" alt="Profile Picture" class="profile-img">
     <h1>Muthiah Shanmugam</h1>
-    <p>
-      As an expert in Vehicle Dynamics and Control Systems for the Automotive industry, my focus as a Mechatronics Engineer is optimizing vehicle performance through system simulation and ride & handling analysis using Multibody Dynamics.  
-      With a Master's degree in Vehicle Dynamics, I have honed MATLAB/Simulink, MSC ADAMS, SIMPACK, and Python skills to deliver innovative solutions that enhance vehicle control and improve system performance.
-    </p>
-    <a href="https://www.linkedin.com/in/muthiah-shanmugam" target="_blank" class="btn">Connect on LinkedIn</a>
+    <h2>Vehicle Dynamics & Control Systems Engineer</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html">Projects</a>
+      <a href="blog.html">Blog</a>
+      <a href="talks.html">Talks</a>
+      <a href="resources.html">Resources</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
 
-  <nav>
-    <a href="about.html">About</a>
-    <a href="research.html">Research</a>
-    <a href="publications.html">Publications</a>
-    <a href="projects.html">Projects</a>
-    <a href="blog.html">Blog</a>
-    <a href="talks.html">Talks</a>
-    <a href="resources.html">Resources</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-
   <main>
-    <h2>Welcome to My Professional Portfolio</h2>
     <p>
-      Explore my research, projects, publications, and insights in vehicle dynamics and control systems.  
-      This website is designed to showcase my PhD journey, tools, simulations, and contributions to the field.
+      As an expert in Vehicle Dynamics and Control Systems for the Automotive industry, my focus as a Mechatronics Engineer is optimizing vehicle performance through system simulation and ride and handling analysis using Multibody Dynamics.
+    </p>
+    <p>
+      With a Master's degree in Vehicle Dynamics and a profound understanding of this field, I have honed my MATLAB/Simulink, MSC ADAMS, SIMPACK, and Python skills to deliver innovative solutions that enhance vehicle control and improve system performance.
+    </p>
+    <p>
+      My passion for research drives me to contribute to the evolution of control systems for safer and more efficient vehicles. I thrive in collaborative environments and work on delivering measurable results through analytical skills and practical strategies.
     </p>
 
-    <p>
-      <a href="research.html" class="btn">Research</a>
-      <a href="projects.html" class="btn">Projects</a>
-      <a href="publications.html" class="btn">Publications</a>
-      <a href="contact.html" class="btn">Contact Me</a>
+    <p style="text-align: center;">
+      <a href="https://www.linkedin.com/in/muthiah-shanmugam" class="btn" target="_blank">Connect on LinkedIn</a>
     </p>
   </main>
+  <section class="hero">
+    <img src="profile.jpg" alt="Profile Picture">
+    <h1>Vehicle Dynamics & Control Systems Engineer</h1>
+    <h2>PhD Researcher | Simulation & Control | Automotive Innovation</h2>
+    <div class="cta">
+      <a href="research.html" class="btn">View My Research</a>
+      <a href="https://www.linkedin.com/in/muthiah-shanmugam" target="_blank" class="btn">Connect on LinkedIn</a>
+    </div>
+  </section>
 
   <footer>
-    &copy; 2025 Muthiah Shanmugam | Built with ❤️ on GitHub Pages
+    &copy; 2025 Muthiah Shanmugam | Built using GitHub Pages
   </footer>
 
 </body>
-</html>
