@@ -38,153 +38,146 @@
   </header>
 
   <main id="main">
-    <h1>Professional Experience</h1>
+    <h1>Professional experience</h1>
 
-    <div class="card">
-      <h2>Senior CAE Engineer — Vehicle Dynamics &amp; Controls Simulation</h2>
-      <p>
-        <strong>Akkodis</strong> (formerly AKKA Technologies / MBtech Group GmbH &amp; Co. KGaA) —
-        Sindelfingen, Germany<br>
-        <em>April 2015 – Present</em><br>
-        Technical lead on 1–2 concurrent projects, teams of 2–3 engineers
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>Full-Vehicle MBS — K&amp;C, Ride Comfort and Handling</h3>
-      <ul>
-        <li>Built and evaluated full-vehicle models in ADAMS/Car and SIMPACK across all development
-          phases — from concept through series maturity.</li>
-        <li>Correlated simulation results against rig and road test data to series-level accuracy;
-          identified deviation root causes and derived model improvements.</li>
-        <li>Actively supported technical alignment with OEM customers and represented results in
-          design reviews.</li>
-      </ul>
-      <div class="tool-tags">
-        <span class="tag">ADAMS/Car</span>
-        <span class="tag">SIMPACK</span>
+    <section aria-labelledby="akkodis-title">
+      <h2 id="akkodis-title">Akkodis</h2>
+      <div class="role-header">
+        <p><strong>Senior CAE Engineer — Vehicle Dynamics &amp; Controls Simulation</strong></p>
+        <p class="entry-meta">
+          Akkodis (formerly AKKA Technologies / MBtech Group GmbH &amp; Co. KGaA) · Sindelfingen, Germany ·
+          <time datetime="2015-04">April 2015</time> – present
+        </p>
+        <p class="entry-meta">Technical lead on 1–2 concurrent projects, teams of 2–3 engineers</p>
       </div>
-    </div>
 
-    <div class="card">
-      <h3>SiL/MiL Controls Integration — Active Chassis Systems</h3>
-      <p><em>
-        Model-based development of closed-loop SiL/MiL co-simulation environments for virtual
-        validation of active chassis controllers.
-      </em></p>
-      <ul>
-        <li>Model-based development of MBS co-simulation models (ADAMS/Car, ADAMS/Controls, Simulink)
-          via SiL/MiL for virtual validation of active chassis controllers.</li>
-        <li>Designed and integrated control algorithms including black-box subsystems; defined signal
-          architecture and closed control loops.</li>
-      </ul>
-      <div class="tool-tags">
-        <span class="tag">ADAMS/Car</span>
-        <span class="tag">ADAMS/Controls</span>
-        <span class="tag">Simulink</span>
-      </div>
-    </div>
+      <article class="entry" aria-labelledby="akk-mbs">
+        <h3 id="akk-mbs">Full-vehicle MBS — K&amp;C, ride and handling</h3>
+        <p class="entry-summary">Full-vehicle models in ADAMS/Car and SIMPACK across all development phases, from concept through series maturity.</p>
+        <!-- TODO: NEEDS INPUT — optional quantified outcome (e.g. number of vehicle programmes, correlation tolerance) -->
+        <ul>
+          <li><strong>Series-level model accuracy</strong> — correlated simulation results against rig and road test data, identified the root causes of deviations and derived model improvements.</li>
+          <li><strong>Customer requirements verified</strong> — ran K&amp;C, handling, ride comfort and durability simulations and evaluated variant studies and simulation loops systematically.</li>
+          <li><strong>Results represented to OEM customers</strong> — presented findings in design reviews and technical alignment meetings.</li>
+        </ul>
+        <ul class="chips" aria-label="Tools">
+          <li>ADAMS/Car</li>
+          <li>SIMPACK</li>
+        </ul>
+      </article>
 
-    <div class="card">
-      <h3>Subsystem Modeling, Validation and Controls Integration in MBS</h3>
-      <ul>
-        <li>Developed and validated ADAMS/View subsystem models for driveshafts, transmission
-          components, park mechanisms and differentials.</li>
-        <li>Integrated Simulink control logic into ADAMS/View for co-simulation and validation of
-          control strategies.</li>
-        <li>Simulated and analyzed noise-critical operating conditions in the differential — drove
-          concept optimization based on results.</li>
-      </ul>
-      <div class="tool-tags">
-        <span class="tag">ADAMS/View</span>
-        <span class="tag">Gear AT</span>
-        <span class="tag">Simulink</span>
-      </div>
-    </div>
+      <article class="entry" aria-labelledby="akk-ctrl">
+        <h3 id="akk-ctrl">Control integration — active chassis</h3>
+        <p class="entry-summary">Model-based development of closed-loop Software-in-the-Loop (SiL) and Model-in-the-Loop (MiL) co-simulation environments for active chassis controllers.</p>
+        <!-- TODO: NEEDS INPUT — optional quantified outcome (e.g. number of controllers or chassis systems integrated) -->
+        <ul>
+          <li><strong>Active chassis controllers validated virtually, without physical prototype hardware</strong> — built MBS co-simulation models coupling ADAMS/Car, ADAMS/Controls and Simulink.</li>
+          <li><strong>Controllers integrated end to end, including black-box subsystems</strong> — designed and integrated control algorithms, defined the signal architecture and closed the control loops.</li>
+          <li><strong>Chassis concepts validated in simulation</strong> — ran co-simulation validation scenarios and compared the results against reference data sets.</li>
+        </ul>
+        <ul class="chips" aria-label="Tools">
+          <li>SiL/MiL</li>
+          <li>ADAMS/Controls</li>
+          <li>Simulink</li>
+          <li>FMU/FMI</li>
+        </ul>
+      </article>
 
-    <div class="card">
-      <h3>Python Simulation Automation &amp; Process Manager</h3>
-      <ul>
-        <li>Developed a GUI-based simulation process manager in Python (PyQt) to automate K&amp;C,
-          ride and handling simulations in ADAMS/Car.</li>
-        <li>Developed comparison/analysis functions for KPIs; integrated parameter optimization and
-          sensitivity analysis for chassis tuning.</li>
-      </ul>
-      <div class="tool-tags">
-        <span class="tag">Python 3</span>
-        <span class="tag">PyQt</span>
-        <span class="tag">ADAMS/Car</span>
-      </div>
-    </div>
+      <article class="entry" aria-labelledby="akk-sub">
+        <h3 id="akk-sub">Subsystem MBS — driveline, park lock, differential</h3>
+        <p class="entry-summary">Validated ADAMS/View subsystem models for driveshafts, transmission components, park lock mechanisms and differentials.</p>
+        <!-- TODO: NEEDS INPUT — optional quantified outcome (e.g. concept variants evaluated) -->
+        <ul>
+          <li><strong>Park lock concepts compared on engagement and disengagement behaviour</strong> — evaluated parking gear and pawl geometries in MBS for kinematics and contact behaviour.</li>
+          <li><strong>Differential concept optimised</strong> — simulated and analysed noise-critical operating conditions and drove concept optimisation based on the results.</li>
+          <li><strong>Control strategies validated in co-simulation</strong> — integrated Simulink control logic into ADAMS/View models.</li>
+        </ul>
+        <ul class="chips" aria-label="Tools">
+          <li>ADAMS/View</li>
+          <li>Gear AT</li>
+        </ul>
+      </article>
 
-    <h2>Prior Experience</h2>
+      <article class="entry" aria-labelledby="akk-py">
+        <h3 id="akk-py">Python simulation automation &amp; process manager</h3>
+        <p class="entry-summary">Python tooling that automates simulation pipelines and KPI reporting for the engineering team.</p>
+        <!-- TODO: NEEDS INPUT — optional quantified outcome (e.g. time saved per simulation loop, number of users) -->
+        <ul>
+          <li><strong>K&amp;C, ride and handling simulations automated in ADAMS/Car</strong> — developed a GUI-based simulation process manager in Python (PyQt).</li>
+          <li><strong>Batch results delivered as plots and reports</strong> — implemented automated multi-run and batch simulations including result processing, visualisation and export.</li>
+          <li><strong>Chassis tuning backed by KPI comparison</strong> — built comparison and analysis functions for KPIs and integrated parameter optimisation and sensitivity analysis.</li>
+        </ul>
+        <ul class="chips" aria-label="Tools">
+          <li>Python</li>
+          <li>PyQt</li>
+        </ul>
+      </article>
+    </section>
 
-    <div class="card">
-      <h3>Master's Thesis — MBS Department</h3>
-      <p>
-        <strong>MBtech Group GmbH &amp; Co. KGaA</strong> — Germany<br>
-        <em>September 2014 – February 2015</em>
-      </p>
-      <p><em>
-        "Simulation-based development and adaptation of control strategy for semi-active damper on
-        full vehicle model"
-      </em></p>
-      <ul>
-        <li>Developed a control strategy for semi-active dampers on a full-vehicle model via
-          co-simulation between MATLAB/Simulink and ADAMS/Car.</li>
-      </ul>
-      <div class="tool-tags">
-        <span class="tag">MATLAB/Simulink</span>
-        <span class="tag">ADAMS/Car</span>
-      </div>
-    </div>
+    <section aria-labelledby="earlier-title">
+      <h2 id="earlier-title">Earlier roles</h2>
 
-    <div class="card">
-      <h3>Werkstudent — Digital Product R&amp;D, Mercedes-Benz Cars</h3>
-      <p>
-        <strong>Daimler AG</strong> — Böblingen, Germany<br>
-        <em>December 2013 – August 2014</em>
-      </p>
-      <ul>
-        <li>Contributed to a digital development environment for vehicle door structures; performed
-          mesh adaptation for rapid design changes.</li>
-      </ul>
-    </div>
+      <article class="entry" aria-labelledby="mbtech">
+        <h3 id="mbtech">Master's thesis — MBS department</h3>
+        <p class="entry-meta">
+          MBtech Group GmbH &amp; Co. KGaA · Germany ·
+          <time datetime="2014-09">September 2014</time> – <time datetime="2015-02">February 2015</time>
+        </p>
+        <p class="entry-summary">“Simulation-based development and adaptation of control strategy for semi-active damper on full vehicle model”</p>
+        <ul>
+          <li><strong>Semi-active damper control strategy developed on a full-vehicle model</strong> — via co-simulation between MATLAB/Simulink and ADAMS/Car.</li>
+        </ul>
+        <ul class="chips" aria-label="Tools">
+          <li>MATLAB/Simulink</li>
+          <li>ADAMS/Car</li>
+        </ul>
+      </article>
 
-    <div class="card">
-      <h3>Project Engineer — Engineering Design Services (FEM)</h3>
-      <p>
-        <strong>Wipro Technologies</strong> — Bangalore, India<br>
-        <em>June 2011 – July 2013</em>
-      </p>
-      <ul>
-        <li>Developed FE models for crash, occupant safety and pedestrian safety analysis (HyperMesh,
-          ANSA).</li>
-      </ul>
-      <div class="tool-tags">
-        <span class="tag">HyperMesh</span>
-        <span class="tag">ANSA</span>
-      </div>
-    </div>
+      <article class="entry" aria-labelledby="daimler">
+        <h3 id="daimler">Werkstudent — Digital Product R&amp;D, Mercedes-Benz Cars</h3>
+        <p class="entry-meta">
+          Daimler AG · Böblingen, Germany ·
+          <time datetime="2013-12">December 2013</time> – <time datetime="2014-08">August 2014</time>
+        </p>
+        <p class="entry-summary">Digital development environment for vehicle door structures in the early design phase.</p>
+        <ul>
+          <li><strong>Rapid design changes on door structures enabled</strong> — performed mesh adaptation within the digital development environment.</li>
+        </ul>
+        <!-- TODO: NEEDS INPUT — tools used at Daimler (chips) -->
+      </article>
 
-    <h2>Education</h2>
-    <div class="card">
-      <h3>M.Eng. Automotive Systems — Vehicle Dynamics</h3>
-      <p>
-        Hochschule Esslingen, Germany<br>
-        <em>2013 – 2015 · Grade 1.8</em><br>
-        Focus: MBS, ride &amp; handling, control theory
-      </p>
-    </div>
+      <article class="entry" aria-labelledby="wipro">
+        <h3 id="wipro">Project Engineer — Engineering Design Services (FEM)</h3>
+        <p class="entry-meta">
+          Wipro Technologies · Bangalore, India ·
+          <time datetime="2011-06">June 2011</time> – <time datetime="2013-07">July 2013</time>
+        </p>
+        <p class="entry-summary">Finite element modelling for crash, occupant safety and pedestrian safety.</p>
+        <ul>
+          <li><strong>Models ready for crash, occupant safety and pedestrian safety analysis</strong> — built FE models at subsystem and full-vehicle level.</li>
+        </ul>
+        <ul class="chips" aria-label="Tools">
+          <li>HyperMesh</li>
+          <li>ANSA</li>
+        </ul>
+      </article>
+    </section>
 
-    <div class="card">
-      <h3>B.Eng. Mechatronics</h3>
-      <p>
-        Anna University of Technology, India<br>
-        <em>2008 – 2011 · CGPA 9.62 / 10</em><br>
-        Focus: modeling, simulation, control theory
-      </p>
-    </div>
+    <section aria-labelledby="education-title">
+      <h2 id="education-title">Education</h2>
+
+      <article class="entry" aria-labelledby="meng">
+        <h3 id="meng">M.Eng. Automotive Systems — Vehicle Dynamics</h3>
+        <p class="entry-meta">Hochschule Esslingen, Germany · 2013 – 2015 · Grade 1.8</p>
+        <p>Focus: MBS, ride &amp; handling, control theory</p>
+      </article>
+
+      <article class="entry" aria-labelledby="beng">
+        <h3 id="beng">B.Eng. Mechatronics</h3>
+        <p class="entry-meta">Anna University of Technology, India · 2008 – 2011 · CGPA 9.62 / 10</p>
+        <p>Focus: modelling, simulation, control theory</p>
+      </article>
+    </section>
   </main>
 
   <footer class="site-footer">
