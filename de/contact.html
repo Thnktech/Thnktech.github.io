@@ -6,28 +6,40 @@
   <meta name="robots" content="noindex, nofollow">
   <meta name="description" content="Kontaktieren Sie Muthiah Shanmugam für berufliche Anfragen oder Kooperationsmöglichkeiten.">
   <title>Kontakt | Muthiah Shanmugam</title>
+  <link rel="alternate" hreflang="en" href="https://thnktech.github.io/contact.html">
+  <link rel="alternate" hreflang="de" href="https://thnktech.github.io/de/contact.html">
+  <link rel="alternate" hreflang="x-default" href="https://thnktech.github.io/contact.html">
+  <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
 
-  <header>
-    <h1>Muthiah Shanmugam</h1>
-    <nav>
-      <a href="index.html">Startseite</a>
-      <a href="about.html">Über mich</a>
-      <a href="experience.html">Erfahrung</a>
-      <a href="publications.html">Publikationen</a>
-      <a href="hobbies.html">Hobbys</a>
-      <a href="contact.html">Kontakt</a>
-    </nav>
-    <div class="lang-switch">
-      <a href="../contact.html">EN</a>
-      <a href="contact.html" class="active">DE</a>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-title" href="index.html">Muthiah Shanmugam</a>
+      <nav class="main-nav" aria-label="Hauptnavigation">
+        <ul>
+          <li><a href="index.html">Startseite</a></li>
+          <li><a href="about.html">Über mich</a></li>
+          <li><a href="experience.html">Erfahrung</a></li>
+          <li><a href="publications.html">Publikationen</a></li>
+          <li><a href="hobbies.html">Hobbys</a></li>
+          <li><a href="contact.html" aria-current="page">Kontakt</a></li>
+        </ul>
+      </nav>
+      <nav class="lang-switch" aria-label="Sprache">
+        <ul>
+          <li><a href="../contact.html" hreflang="en" lang="en">EN<span class="visually-hidden"> – English</span></a></li>
+          <li><a href="contact.html" hreflang="de" lang="de" aria-current="true">DE<span class="visually-hidden"> – Deutsch</span></a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
-  <main>
-    <h2>Kontakt</h2>
+  <main id="main">
+    <h1>Kontakt</h1>
     <p>
       Ich freue mich über Kontaktaufnahmen zu beruflichen Anfragen oder Kooperationsmöglichkeiten.
       Senden Sie mir direkt eine Nachricht über das untenstehende Formular.
@@ -48,18 +60,9 @@
     </form>
   </main>
 
-  <footer>
-    &copy; 2026 Muthiah Shanmugam | Erstellt mit ❤️ auf GitHub Pages
+  <footer class="site-footer">
+    <p>&copy; 2026 Muthiah Shanmugam · Gehostet auf GitHub Pages</p>
   </footer>
-
-  <script>
-    (function () {
-      var page = location.pathname.split('/').pop() || 'index.html';
-      document.querySelectorAll('nav a').forEach(function (a) {
-        if (a.getAttribute('href') === page) a.classList.add('active');
-      });
-    })();
-  </script>
 
 </body>
 </html>

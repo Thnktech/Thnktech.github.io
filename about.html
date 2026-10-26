@@ -6,28 +6,40 @@
   <meta name="robots" content="noindex, nofollow">
   <meta name="description" content="About Muthiah Shanmugam — Senior CAE Engineer specialising in Vehicle Dynamics, MBS Simulation, and SiL/MiL Co-Simulation.">
   <title>About Me | Muthiah Shanmugam</title>
+  <link rel="alternate" hreflang="en" href="https://thnktech.github.io/about.html">
+  <link rel="alternate" hreflang="de" href="https://thnktech.github.io/de/about.html">
+  <link rel="alternate" hreflang="x-default" href="https://thnktech.github.io/about.html">
+  <link rel="icon" href="data:,">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-  <header>
-    <h1>Muthiah Shanmugam</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="experience.html">Experience</a>
-      <a href="publications.html">Publications</a>
-      <a href="hobbies.html">Hobbies</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-    <div class="lang-switch">
-      <a href="about.html" class="active">EN</a>
-      <a href="de/about.html">DE</a>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-title" href="index.html">Muthiah Shanmugam</a>
+      <nav class="main-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="lang-switch" aria-label="Language">
+        <ul>
+          <li><a href="about.html" hreflang="en" lang="en" aria-current="true">EN<span class="visually-hidden"> – English</span></a></li>
+          <li><a href="de/about.html" hreflang="de" lang="de">DE<span class="visually-hidden"> – Deutsch</span></a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
-  <main>
-    <h2>About Me</h2>
+  <main id="main">
+    <h1>About Me</h1>
     <p>
       I am a results-driven Senior CAE Engineer with 11+ years of experience in full-vehicle
       <strong>multibody simulation</strong>, <strong>ride comfort and handling analysis</strong>, and
@@ -92,22 +104,13 @@
       <li>Tamil — Native</li>
     </ul>
 
-    <a href="Muthiah_Shanmugam_Resume_EN_OnePage.pdf" class="btn" target="_blank">CV (EN)</a>
-    <a href="Muthiah_Shanmugam_CV_DE_OnePage.pdf" class="btn" target="_blank">CV (DE)</a>
+    <a href="Muthiah_Shanmugam_Resume_EN_OnePage.pdf" class="btn">CV (EN)</a>
+    <a href="Muthiah_Shanmugam_CV_DE_OnePage.pdf" class="btn">CV (DE)</a>
   </main>
 
-  <footer>
-    &copy; 2026 Muthiah Shanmugam | Built with ❤️ on GitHub Pages
+  <footer class="site-footer">
+    <p>&copy; 2026 Muthiah Shanmugam · Hosted on GitHub Pages</p>
   </footer>
-
-  <script>
-    (function () {
-      var page = location.pathname.split('/').pop() || 'index.html';
-      document.querySelectorAll('nav a').forEach(function (a) {
-        if (a.getAttribute('href') === page) a.classList.add('active');
-      });
-    })();
-  </script>
 
 </body>
 </html>

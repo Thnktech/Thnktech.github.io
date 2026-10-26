@@ -6,28 +6,40 @@
   <meta name="robots" content="noindex, nofollow">
   <meta name="description" content="Hobbies and interests of Muthiah Shanmugam — non-fiction, self-help, and motivational books, and public repositories.">
   <title>Hobbies | Muthiah Shanmugam</title>
+  <link rel="alternate" hreflang="en" href="https://thnktech.github.io/hobbies.html">
+  <link rel="alternate" hreflang="de" href="https://thnktech.github.io/de/hobbies.html">
+  <link rel="alternate" hreflang="x-default" href="https://thnktech.github.io/hobbies.html">
+  <link rel="icon" href="data:,">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-  <header>
-    <h1>Muthiah Shanmugam</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="experience.html">Experience</a>
-      <a href="publications.html">Publications</a>
-      <a href="hobbies.html">Hobbies</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-    <div class="lang-switch">
-      <a href="hobbies.html" class="active">EN</a>
-      <a href="de/hobbies.html">DE</a>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-title" href="index.html">Muthiah Shanmugam</a>
+      <nav class="main-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="hobbies.html" aria-current="page">Hobbies</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="lang-switch" aria-label="Language">
+        <ul>
+          <li><a href="hobbies.html" hreflang="en" lang="en" aria-current="true">EN<span class="visually-hidden"> – English</span></a></li>
+          <li><a href="de/hobbies.html" hreflang="de" lang="de">DE<span class="visually-hidden"> – Deutsch</span></a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
-  <main>
-    <h2>Hobbies &amp; Interests</h2>
+  <main id="main">
+    <h1>Hobbies &amp; Interests</h1>
     <p>Outside of work, I enjoy building tools, sharing what I learn, and reading. Here are some of my interests.</p>
 
     <h2>Tools, Repositories &amp; Channels</h2>
@@ -36,8 +48,8 @@
       projects, plus a YouTube channel where I share what I'm learning.
     </p>
     <ul>
-      <li><a href="https://github.com/Thnktech" target="_blank">GitHub Profile</a></li>
-      <li><a href="https://www.youtube.com/@wiserwithwifi" target="_blank">YouTube Channel</a></li>
+      <li><a href="https://github.com/Thnktech">GitHub Profile</a></li>
+      <li><a href="https://www.youtube.com/@wiserwithwifi">YouTube Channel</a></li>
     </ul>
 
     <h2>Books</h2>
@@ -118,18 +130,9 @@
 
   </main>
 
-  <footer>
-    &copy; 2026 Muthiah Shanmugam | Built with ❤️ on GitHub Pages
+  <footer class="site-footer">
+    <p>&copy; 2026 Muthiah Shanmugam · Hosted on GitHub Pages</p>
   </footer>
-
-  <script>
-    (function () {
-      var page = location.pathname.split('/').pop() || 'index.html';
-      document.querySelectorAll('nav a').forEach(function (a) {
-        if (a.getAttribute('href') === page) a.classList.add('active');
-      });
-    })();
-  </script>
 
 </body>
 </html>
